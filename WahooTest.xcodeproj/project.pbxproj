@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5BEEA882467D26000C40B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEEA872467D26000C40B24 /* AppDelegate.swift */; };
+		F5BEEA8F2467D26000C40B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BEEA8D2467D26000C40B24 /* Main.storyboard */; };
+		F5BEEA912467D26100C40B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BEEA902467D26100C40B24 /* Assets.xcassets */; };
+		F5BEEA942467D26100C40B24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5BEEA922467D26100C40B24 /* LaunchScreen.storyboard */; };
+		F5BEEA9D2467D46A00C40B24 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEEA9C2467D46A00C40B24 /* SystemConfiguration.framework */; };
+		F5BEEA9F2467D46F00C40B24 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEEA9E2467D46F00C40B24 /* libc++.tbd */; };
+		F5BEEAA12467D47400C40B24 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEEAA02467D47300C40B24 /* libz.tbd */; };
+		F5BEEAA32467D48100C40B24 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEEAA22467D48100C40B24 /* CoreBluetooth.framework */; };
+		F5BEEAA52467D48900C40B24 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEEAA42467D48900C40B24 /* ExternalAccessory.framework */; };
+		F5BEEAA72467D49000C40B24 /* WFConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEEAA62467D49000C40B24 /* WFConnector.framework */; };
+		F5BEEAA92467D4B500C40B24 /* WFConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEEAA82467D4B500C40B24 /* WFConnector.framework */; };
+		F5BEEAAF2467D83700C40B24 /* DiscoveryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEEAAE2467D83700C40B24 /* DiscoveryTableViewController.swift */; };
+		F5BEEAB12467DAFD00C40B24 /* DeviceDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEEAB02467DAFD00C40B24 /* DeviceDetailTableViewController.swift */; };
+		F5BEEAB32467E59000C40B24 /* HeartrateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BEEAB22467E59000C40B24 /* HeartrateTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5BEEA842467D26000C40B24 /* WahooTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WahooTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BEEA872467D26000C40B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5BEEA8E2467D26000C40B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5BEEA902467D26100C40B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5BEEA932467D26100C40B24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5BEEA952467D26100C40B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5BEEA9C2467D46A00C40B24 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F5BEEA9E2467D46F00C40B24 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F5BEEAA02467D47300C40B24 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F5BEEAA22467D48100C40B24 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		F5BEEAA42467D48900C40B24 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		F5BEEAA62467D49000C40B24 /* WFConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WFConnector.framework; path = Frameworks/WFConnector.framework; sourceTree = "<group>"; };
+		F5BEEAA82467D4B500C40B24 /* WFConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WFConnector.framework; path = Frameworks/WFConnector.framework; sourceTree = "<group>"; };
+		F5BEEAAA2467D54200C40B24 /* WahooTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WahooTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		F5BEEAAE2467D83700C40B24 /* DiscoveryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryTableViewController.swift; sourceTree = "<group>"; };
+		F5BEEAB02467DAFD00C40B24 /* DeviceDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailTableViewController.swift; sourceTree = "<group>"; };
+		F5BEEAB22467E59000C40B24 /* HeartrateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartrateTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5BEEA812467D26000C40B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BEEAA72467D49000C40B24 /* WFConnector.framework in Frameworks */,
+				F5BEEAA52467D48900C40B24 /* ExternalAccessory.framework in Frameworks */,
+				F5BEEAA32467D48100C40B24 /* CoreBluetooth.framework in Frameworks */,
+				F5BEEAA12467D47400C40B24 /* libz.tbd in Frameworks */,
+				F5BEEA9F2467D46F00C40B24 /* libc++.tbd in Frameworks */,
+				F5BEEAA92467D4B500C40B24 /* WFConnector.framework in Frameworks */,
+				F5BEEA9D2467D46A00C40B24 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5BEEA7B2467D26000C40B24 = {
+			isa = PBXGroup;
+			children = (
+				F5BEEA862467D26000C40B24 /* WahooTest */,
+				F5BEEA852467D26000C40B24 /* Products */,
+				F5BEEA9B2467D46900C40B24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5BEEA852467D26000C40B24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BEEA842467D26000C40B24 /* WahooTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BEEA862467D26000C40B24 /* WahooTest */ = {
+			isa = PBXGroup;
+			children = (
+				F5BEEA872467D26000C40B24 /* AppDelegate.swift */,
+				F5BEEAAE2467D83700C40B24 /* DiscoveryTableViewController.swift */,
+				F5BEEAB02467DAFD00C40B24 /* DeviceDetailTableViewController.swift */,
+				F5BEEAB22467E59000C40B24 /* HeartrateTableViewController.swift */,
+				F5BEEA8D2467D26000C40B24 /* Main.storyboard */,
+				F5BEEA902467D26100C40B24 /* Assets.xcassets */,
+				F5BEEA922467D26100C40B24 /* LaunchScreen.storyboard */,
+				F5BEEA952467D26100C40B24 /* Info.plist */,
+				F5BEEAAA2467D54200C40B24 /* WahooTest-Bridging-Header.h */,
+			);
+			path = WahooTest;
+			sourceTree = "<group>";
+		};
+		F5BEEA9B2467D46900C40B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5BEEAA62467D49000C40B24 /* WFConnector.framework */,
+				F5BEEAA42467D48900C40B24 /* ExternalAccessory.framework */,
+				F5BEEAA22467D48100C40B24 /* CoreBluetooth.framework */,
+				F5BEEAA02467D47300C40B24 /* libz.tbd */,
+				F5BEEA9E2467D46F00C40B24 /* libc++.tbd */,
+				F5BEEAA82467D4B500C40B24 /* WFConnector.framework */,
+				F5BEEA9C2467D46A00C40B24 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BEEA832467D26000C40B24 /* WahooTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BEEA982467D26100C40B24 /* Build configuration list for PBXNativeTarget "WahooTest" */;
+			buildPhases = (
+				F5BEEA802467D26000C40B24 /* Sources */,
+				F5BEEA812467D26000C40B24 /* Frameworks */,
+				F5BEEA822467D26000C40B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WahooTest;
+			productName = WahooTest;
+			productReference = F5BEEA842467D26000C40B24 /* WahooTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5BEEA7C2467D26000C40B24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = hiroki;
+				TargetAttributes = {
+					F5BEEA832467D26000C40B24 = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = F5BEEA7F2467D26000C40B24 /* Build configuration list for PBXProject "WahooTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5BEEA7B2467D26000C40B24;
+			productRefGroup = F5BEEA852467D26000C40B24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5BEEA832467D26000C40B24 /* WahooTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5BEEA822467D26000C40B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BEEA942467D26100C40B24 /* LaunchScreen.storyboard in Resources */,
+				F5BEEA912467D26100C40B24 /* Assets.xcassets in Resources */,
+				F5BEEA8F2467D26000C40B24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5BEEA802467D26000C40B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5BEEAB32467E59000C40B24 /* HeartrateTableViewController.swift in Sources */,
+				F5BEEAAF2467D83700C40B24 /* DiscoveryTableViewController.swift in Sources */,
+				F5BEEA882467D26000C40B24 /* AppDelegate.swift in Sources */,
+				F5BEEAB12467DAFD00C40B24 /* DeviceDetailTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5BEEA8D2467D26000C40B24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BEEA8E2467D26000C40B24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5BEEA922467D26100C40B24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5BEEA932467D26100C40B24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5BEEA962467D26100C40B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5BEEA972467D26100C40B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5BEEA992467D26100C40B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQG2XWAYY3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = WahooTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hiroki.WahooTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WahooTest/WahooTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5BEEA9A2467D26100C40B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQG2XWAYY3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = WahooTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-Objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hiroki.WahooTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WahooTest/WahooTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5BEEA7F2467D26000C40B24 /* Build configuration list for PBXProject "WahooTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BEEA962467D26100C40B24 /* Debug */,
+				F5BEEA972467D26100C40B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BEEA982467D26100C40B24 /* Build configuration list for PBXNativeTarget "WahooTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5BEEA992467D26100C40B24 /* Debug */,
+				F5BEEA9A2467D26100C40B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5BEEA7C2467D26000C40B24 /* Project object */;
+}
